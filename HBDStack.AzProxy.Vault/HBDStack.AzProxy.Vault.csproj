@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>warnings</Nullable>
+    <Authors>Duy Hoang</Authors>
+    <Copyright>@drunkcoding.net 2022</Copyright>
+    <PackageProjectUrl>https://github.com/HBDStack/HBDStack.Azure</PackageProjectUrl>
+    <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/HBDStack/HBDStack.Azure</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>servicebus,messaging</PackageTags>
+    <ImplicitUsings>true</ImplicitUsings>
+    <PackageVersion />
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\NugetLogo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.24" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HBDStack.AzProxy.Core\HBDStack.AzProxy.Core.csproj" />
+  </ItemGroup>
+</Project>

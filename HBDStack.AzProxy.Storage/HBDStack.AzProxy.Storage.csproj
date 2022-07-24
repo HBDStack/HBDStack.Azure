@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>warnings</Nullable>
+        <Authors>Duy Hoang</Authors>
+        <Copyright>@drunkcoding.net 2022</Copyright>
+        <PackageProjectUrl>https://github.com/HBDStack/HBDStack.Azure</PackageProjectUrl>
+        <PackageLicenseUrl>MIT</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/HBDStack/HBDStack.Azure</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>servicebus,messaging</PackageTags>
+        <ImplicitUsings>true</ImplicitUsings>
+        <PackageVersion />
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Azure.Storage.Blobs" Version="12.13.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <InternalsVisibleTo Include="HBDStack.AzProxy.Storage.Tests" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="..\NugetLogo.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+</Project>

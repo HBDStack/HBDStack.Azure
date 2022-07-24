@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Authors>Duy Hoang</Authors>
+        <Copyright>@drunkcoding.net 2022</Copyright>
+        <PackageProjectUrl>https://github.com/HBDStack/HBDStack.Azure</PackageProjectUrl>
+        <PackageLicenseUrl>MIT</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/HBDStack/HBDStack.Azure</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>servicebus,messaging</PackageTags>
+        <ImplicitUsings>true</ImplicitUsings>
+        <PackageVersion />
+        <LangVersion>default</LangVersion>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.9.0" />
+      <PackageReference Include="HBD.Framework.Extensions" Version="5.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="HBDStack.AzProxy.ServiceBus.Tests" />
+    </ItemGroup>
+</Project>

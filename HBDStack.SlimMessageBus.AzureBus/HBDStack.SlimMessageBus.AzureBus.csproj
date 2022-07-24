@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Authors>Duy Hoang</Authors>
+        <Copyright>@drunkcoding.net 2022</Copyright>
+        <PackageProjectUrl>https://github.com/HBDStack/HBDStack.Azure</PackageProjectUrl>
+        <PackageLicenseUrl>MIT</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/HBDStack/HBDStack.Azure</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>servicebus,messaging</PackageTags>
+        <ImplicitUsings>true</ImplicitUsings>
+        <PackageVersion />
+        <LangVersion>default</LangVersion>
+    </PropertyGroup>
+    <ItemGroup>
+        <InternalsVisibleTo Include="HBDStack.SlimMessageBus.AzureBus.Tests" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="SlimMessageBus.Host.AzureServiceBus" Version="1.19.1-rc2" />
+      <PackageReference Include="SlimMessageBus.Host.MsDependencyInjection" Version="1.7.1" />
+      <PackageReference Include="SlimMessageBus.Host.Serialization.SystemTextJson" Version="1.4.4-rc1" />
+    </ItemGroup>
+</Project>

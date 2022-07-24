@@ -1,0 +1,11 @@
+{
+  "VaultConfig": {
+    "VaultName": "dev-root-vault",
+    "Filter": {
+      "EndsWith": "Id"
+    },
+
+    "ClientId": "ee79b6d9-ff81-48f2-85ad-db852b33b198",
+    "ClientSecret": "5ecY6hZn*d3IG?kyQuTrKO~DVD9%eo?e+F*WptVS9~UHBLUS^4"
+  }
+}
