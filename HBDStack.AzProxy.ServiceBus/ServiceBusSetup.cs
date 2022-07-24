@@ -1,8 +1,8 @@
 ﻿using System.Reflection;
-using HBD.Framework.Extensions;
 using HBDStack.AzProxy.ServiceBus;
 using HBDStack.AzProxy.ServiceBus.Internals;
 using HBDStack.AzProxy.ServiceBus.Options;
+using HBDStack.Framework.Extensions;
 using Microsoft.Extensions.Configuration;
 
 // ReSharper disable once CheckNamespace
